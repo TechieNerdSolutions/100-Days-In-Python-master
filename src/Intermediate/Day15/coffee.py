@@ -4,7 +4,7 @@ from data import MENU, resources
 from time import sleep
 from replit import clear
 
-from src.Intermdiate.Day15.simple_coffee import payment
+from src.Intermediate.Day15.simple_coffee import payment
 
 # print(logo)
 

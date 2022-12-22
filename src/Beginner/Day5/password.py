@@ -96,15 +96,15 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password_list += random.choice(numbers)
 
-#print(password_list)
+# print(password_list)
 random.shuffle(password_list)
-#print(password_list)
+# print(password_list)
 
 PASSWORD = ""
 for char in password_list:
     PASSWORD += char
 password_details = {password_save_to: PASSWORD}
 print(f"Your password for {password_save_to} is: {PASSWORD}")
-f = open("src/Begnner/Day5/pypassword_gen.txt", "a", encoding="utf-8")
+f = open("src/Beginner/Day5/pypassword_gen.txt", "a", encoding="utf-8")
 f.write(str(password_details) + "\n")
 f.close()
