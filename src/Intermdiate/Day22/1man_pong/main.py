@@ -18,8 +18,6 @@ screen.listen()
 screen.onkey(pong.left, "Left")
 screen.onkey(pong.right, "Right")
 
-
-
 game_is_on = True
 while game_is_on:
     screen.update()
@@ -29,11 +27,7 @@ while game_is_on:
         ball.reset_position()
         score.player_point()
 
-
     # Detect collision with wall
-
-
-
 
 screen.exitonclick()
 
