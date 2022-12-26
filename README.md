@@ -2,7 +2,7 @@
 
 ### Follow me on my journey
 
-![python](https://github.com/Rachamv/100-Days-In-Python/blob/master/src/img/100-days.jpg)
+![python](./src/img/100-days.jpg)
 
 
 ## BEGINNER PYTHON 
