@@ -45,7 +45,7 @@ def save():
         if is_ok:
             with open("data.md", "a") as data_file:
                 data_file.write(f"Website | Email | Password \n ----|----|----\n"
-                                f"{website} | {email} | {password}\n ")
+                                f"{website} | {email} | {password}")
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
 
